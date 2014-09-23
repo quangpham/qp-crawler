@@ -3,7 +3,7 @@ MAINTAINER me@quangpham.com
 
 # Install nginx, nodejs and curl
 RUN apt-get update -q
-RUN apt-get install -q -y curl nodejs supervisor git
+RUN apt-get install -q -y curl supervisor git
 
 # Install mysql client
 RUN apt-get install -qy libmysqld-dev libmysqlclient-dev mysql-client
